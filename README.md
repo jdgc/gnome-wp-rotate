@@ -1,4 +1,4 @@
-# gnome_wp_rotate
+# wp_rotate
 Set gnome desktop background from random image in specified directory
 
 Usage:
