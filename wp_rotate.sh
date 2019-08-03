@@ -7,5 +7,5 @@ if [[ ! -d $DIR ]] ; then
   exit 1
 fi
 
-WALLPAPER="$( find $1 -type f | shuf -n1 )"
+WALLPAPER="$( find $DIR -type f | shuf -n1 )"
 gsettings set org.gnome.desktop.background picture-uri $WALLPAPER
